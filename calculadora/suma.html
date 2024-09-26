@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio sumar dos números</title>
+    <link rel="stylesheet" href="suma.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_del_Ministerio_de_Tecnolog%C3%ADas_de_la_Informaci%C3%B3n_y_las_Comunicaciones_de_Colombia_2022-2026.png"
+          alt="Logo de MINTIC"
+        />
+        <h1>+++ Sumando dos números +++</h1>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/30/LOGO_PLAN_DE_DESARROLLO_COLOMBIA_POTENCIA_DE_LA_VIDA_2022-2026.png"
+          alt="Logo Colombia Potencia de la Vida"
+        />
+      </header>
+      <main>
+        <form onsubmit="return false;">
+          <p class="saludo">
+            Bienvenido a este divertido juego en el que vamos a sumar dos
+            números,<br />por favor escribe dos números entre 0 y 999 y
+            encuentra el resultado
+          </p>
+          <div class="suma">
+            <div class="container-num">
+              <label for="" class="num1">NÚMERO 1</label>
+              <input type="text" name="num1" id="num1" />
+            </div>
+            <p><span class="material-symbols-outlined">add</span></p>
+            <div class="container-num">
+              <label for="" class="num2">NÚMERO 2</label>
+              <input type="text" name="num2" id="num2" />
+            </div>
+          </div>
+          <button class="calcular" id="calcular">CALCULAR</button>
+          <div class="container-resultado">
+            <label for="" class="resultado">EL RESULTADO ES:</label>
+            <input type="text" name="resultado" id="resultado" readonly />
+          </div>
+        </form>
+      </main>
+      <footer>
+        <div class="perfil">
+          <img
+            src="https://images.mubicdn.net/images/cast_member/704521/cache-598020-1602736076/image-w856.jpg"
+            alt="Imagen del perfil"
+          />
+          <p>José BM</p>
+        </div>
+        <div class="copyright">
+          <p>Año 2024</p>
+          <img
+            src="https://talentotechbogota.co/images/TalentoTech.png"
+            alt="Logo de Talento Tech"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="suma.js"></script>
+  </body>
+</html>
