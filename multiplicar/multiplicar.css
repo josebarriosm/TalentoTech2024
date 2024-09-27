@@ -1,0 +1,128 @@
+body {
+  background-color: yellow;
+  margin: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: rgb(26, 31, 80);
+  display: flex;
+  width: 100vw;
+  height: 120px;
+  color: white;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header img {
+  height: 50%;
+  filter: brightness(0) invert(1);
+}
+main {
+  background-color: rgb(192, 225, 255);
+}
+form {
+  background-color: white;
+  width: 50vw;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: center;
+}
+p.saludo {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.suma {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+form input {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+.container-num {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+.suma span {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 20px;
+  color: blue;
+}
+.calcular {
+  margin-bottom: 25px;
+  width: 200px;
+  font-size: 24px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px;
+  background-color: rgb(26, 31, 80);
+  color: #fff;
+  border: 1px solid rgb(26, 31, 80);
+  cursor: pointer;
+}
+.calcular:hover {
+  background-color: blue;
+}
+.container-resultado {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+footer {
+  background-color: rgb(26, 31, 80);
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+footer img {
+  height: 100px;
+}
+.perfil {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+.perfil img {
+  border-radius: 50%;
+  padding-left: 35px;
+}
+.perfil p {
+  padding-left: 30px;
+  font-size: 1.5rem;
+}
+.copyright {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+.copyright p {
+  padding-right: 30px;
+}
+.error {
+  color: red;
+}
+.exito {
+  color: green;
+}
