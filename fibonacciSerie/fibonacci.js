@@ -34,8 +34,9 @@ function calcularFibo(n1, n2, it) {
 btn.addEventListener("click", () => {
   if (numero1 != "" && numero2 != "" && iteracion != "") {
     let resultado = calcularFibo(numero1, numero2, iteracion);
+    let resultString = resultado.toString().replaceAll(",", " - ");
     let hijo = document.createElement("h3");
-    hijo.innerHTML = `La serie de Fibonacci de los números ${numero1} y ${numero2} es => ${resultado}`;
+    hijo.innerHTML = `La serie de Fibonacci de los números ${numero1} y ${numero2} hasta ${iteracion} iteracciones es => ${resultString}`;
     salida.appendChild(hijo);
   } else {
     let hijo = document.createElement("h3");
