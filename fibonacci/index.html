@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serie Fibonacci</title>
+    <link rel="stylesheet" href="fibonacci.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_del_Ministerio_de_Tecnolog%C3%ADas_de_la_Informaci%C3%B3n_y_las_Comunicaciones_de_Colombia_2022-2026.png"
+          alt="Logo de MINTIC"
+        />
+        <h1>+++ Serie Fibonacci +++</h1>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/30/LOGO_PLAN_DE_DESARROLLO_COLOMBIA_POTENCIA_DE_LA_VIDA_2022-2026.png"
+          alt="Logo Colombia Potencia de la Vida"
+        />
+      </header>
+      <main>
+        <form onsubmit="return false;">
+          <p class="saludo">
+            Bienvenido a este divertido juego en donde a partir de un número
+            vamos a calcular la serie Fibonacci,<br />por favor escribe un
+            número mayor a 2
+          </p>
+          <div class="container-level1">
+            <div class="container-num">
+              <label for="" class="num1">NÚMERO</label>
+              <input type="text" name="num1" id="num1" />
+            </div>
+          </div>
+          <button class="calcular" id="btnCalcular">MOSTRAR</button>
+          <div class="container-resultado">
+            <div class="resultado" id="resultado">
+              EL RESULTADO DE LA SERIE ES:
+            </div>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <div class="perfil">
+          <img
+            src="https://images.mubicdn.net/images/cast_member/704521/cache-598020-1602736076/image-w856.jpg"
+            alt="Imagen del perfil"
+          />
+          <p>José BM</p>
+        </div>
+        <div class="copyright">
+          <p>Año 2024</p>
+          <img
+            src="https://talentotechbogota.co/images/TalentoTech.png"
+            alt="Logo de Talento Tech"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="fibonacci.js"></script>
+  </body>
+</html>
