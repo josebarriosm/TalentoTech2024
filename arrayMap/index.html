@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duplicar un arreglo con Map</title>
+    <link rel="stylesheet" href="arrayMap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_del_Ministerio_de_Tecnolog%C3%ADas_de_la_Informaci%C3%B3n_y_las_Comunicaciones_de_Colombia_2022-2026.png"
+          alt="Logo de MINTIC"
+        />
+        <h1>+++ Duplicar un arreglo con Map +++</h1>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/30/LOGO_PLAN_DE_DESARROLLO_COLOMBIA_POTENCIA_DE_LA_VIDA_2022-2026.png"
+          alt="Logo Colombia Potencia de la Vida"
+        />
+      </header>
+      <main>
+        <form onsubmit="return false;">
+          <p class="saludo">
+            Bienvenido a este divertido juego en donde a partir de cinco números
+            vamos a crear un Array con los cinco campos input y luego duplicarlo
+            con Map para sumarle un 1 a cada elemento y mostrarlo,<br />por
+            favor escribe los cinco números entre 1 y 999 y encuentra el
+            resultado
+          </p>
+          <div class="container-level1">
+            <div class="container-num">
+              <label>Número 1</label>
+              <input type="number" name="array" id="num1" />
+            </div>
+            <div class="container-num">
+              <label>Número 2</label>
+              <input type="number" name="array" id="num2" />
+            </div>
+            <div class="container-num">
+              <label>Número 3</label>
+              <input type="number" name="array" id="num3" />
+            </div>
+            <div class="container-num">
+              <label>Número 4</label>
+              <input type="number" name="array" id="num4" />
+            </div>
+            <div class="container-num">
+              <label>Número 5</label>
+              <input type="number" name="array" id="num5" />
+            </div>
+          </div>
+          <button class="calcular" id="btnCalcular" onclick="arrayMaps()">
+            MOSTRAR
+          </button>
+          <div class="container-resultado">
+            <div class="resultado" id="resultado"></div>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <div class="perfil">
+          <img
+            src="https://images.mubicdn.net/images/cast_member/704521/cache-598020-1602736076/image-w856.jpg"
+            alt="Imagen del perfil"
+          />
+          <p>José BM</p>
+        </div>
+        <div class="copyright">
+          <p>Año 2024</p>
+          <img
+            src="https://talentotechbogota.co/images/TalentoTech.png"
+            alt="Logo de Talento Tech"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="arrayMap.js"></script>
+  </body>
+</html>
