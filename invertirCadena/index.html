@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invertir una cadena de caracteres</title>
+    <link rel="stylesheet" href="invertirCadena.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_del_Ministerio_de_Tecnolog%C3%ADas_de_la_Informaci%C3%B3n_y_las_Comunicaciones_de_Colombia_2022-2026.png"
+          alt="Logo de MINTIC"
+        />
+        <h1>+++ Como invertir una cadena de caracteres +++</h1>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/30/LOGO_PLAN_DE_DESARROLLO_COLOMBIA_POTENCIA_DE_LA_VIDA_2022-2026.png"
+          alt="Logo Colombia Potencia de la Vida"
+        />
+      </header>
+      <main>
+        <form onsubmit="return false;">
+          <p class="saludo">
+            Bienvenido a este divertido juego en donde a partir de una cadena de
+            caracteres vamos a voltearla e imprimirla en pantalla con un bucle
+            "for" recorriendo cada posición de las letras de atrás hacía
+            adelante como un array desde la última posición con "length" hasta
+            la primera posición,<br />
+            por favor escribe la frase y encuentra el resultado
+          </p>
+          <div class="container-level1">
+            <div class="container-string">
+              <label>Digite una palabra o frase:</label>
+              <input type="text" name="frase" id="cadena" />
+            </div>
+          </div>
+          <button class="calcular" id="btnCalcular" onclick="invertirCadena()">
+            INVERTIR
+          </button>
+          <div class="container-resultado">
+            <div class="resultado" id="resultado"></div>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <div class="perfil">
+          <img
+            src="https://images.mubicdn.net/images/cast_member/704521/cache-598020-1602736076/image-w856.jpg"
+            alt="Imagen del perfil"
+          />
+          <p>José BM</p>
+        </div>
+        <div class="copyright">
+          <p>Año 2024</p>
+          <img
+            src="https://talentotechbogota.co/images/TalentoTech.png"
+            alt="Logo de Talento Tech"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="invertirCadena.js"></script>
+  </body>
+</html>
