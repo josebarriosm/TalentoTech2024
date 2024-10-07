@@ -1,0 +1,100 @@
+:root {
+  --green: #dbff00;
+}
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: black;
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1200px;
+  margin: auto;
+  padding: 30px 0px;
+  z-index: 1;
+  position: relative;
+}
+ul.nav {
+  display: flex;
+  gap: 30px;
+  text-transform: uppercase;
+}
+ul.nav li {
+  list-style: none;
+}
+ul.nav > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+ul.nav > li > a:hover {
+  color: var(--green);
+}
+.hero {
+  background-image: url("https://webdesign-finder.com/youko-boxing-club/wp-content/uploads/2021/02/slide_03.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  position: relative;
+  margin-top: -155px;
+  z-index: 0;
+}
+.hero-container {
+  width: 1200px;
+  margin: auto;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 155px;
+}
+.hero-title h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 0px;
+}
+.hero-title span {
+  color: #dbff00;
+}
+.hero-cta {
+  display: flex;
+}
+.hero-cta a {
+  box-sizing: content-box;
+  padding: 21px 35px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  min-width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+.hero-cta .button1 {
+  background-color: var(--green);
+  color: #000;
+  margin-right: 20px;
+}
+.hero-cta .button2 {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.hero-cta a:hover {
+  background-color: #fff;
+  color: #000;
+}
