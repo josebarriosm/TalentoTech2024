@@ -33,3 +33,23 @@ const totalTaxes = withTax.reduce((accT, costTaxes) => accT + costTaxes, 0);
 console.log(
   "La sumatoria del costo total con impuestos hecho con reduce -> " + totalTaxes
 );
+
+/* FIZZ ----------------------------------------------------------*/
+console.log("\nFIZZBUZZ ------------------------------------------ ");
+for (let i = 1; i <= 100; i++) {
+  let numero = i;
+  multiploDe3 = numero % 3;
+  multiploDe5 = numero % 5;
+
+  if (multiploDe3 == 0 && multiploDe5 == 0) {
+    console.log("fizzbuzz");
+  } else if (multiploDe3 == 0) {
+    //console.log(`El número ${numero} es múltiplo de 3`);
+    console.log("fizz");
+  } else if (multiploDe5 == 0) {
+    //console.log(`El número ${numero} es múltiplo de 5`);
+    console.log("buzz");
+  } else {
+    console.log(numero);
+  }
+}
