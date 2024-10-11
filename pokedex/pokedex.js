@@ -12,7 +12,7 @@ const firstPageButton = document.getElementById("first-page");
 const paginationButtons = document.getElementById("pagination-buttons");
 
 let currentPage = 1;
-const itemPerPage = 200;
+const itemPerPage = 52;
 let totalPokemon = 0;
 
 async function fetchPokemonData(pokemonID) {
